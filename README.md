@@ -1,6 +1,8 @@
 #PopUpWindow plugin for jQuery
 
-Takes a link and will create a popupwindow based on the href of the link. You can over ride the default settings by passing your own settings or profile name in the REL attribute of the link.
+Takes a link and will create a popupwindow based on the href of the link. You can over ride the default settings by passing your own settings into popupwindow.
+
+PopUpWindow can be used to emulate Google's OpenId+Oauth Hybrid signin demo.  See: http://googlecodesamples.com/hybrid/ .
 
 ##Installation
    
@@ -13,7 +15,12 @@ To use just include the plugin in the HEAD section of the page **AFTER** calling
 		<script type="text/javascript">
 		$(function()
 		{
-			$(".popupwindow").popupwindow();
+			$(".popupwindow").popupwindow(
+                            {
+                                center: true,
+                                modal: true
+                            }
+                        );
 		});
 		</script>
 	</head>
@@ -22,6 +29,3 @@ To use just include the plugin in the HEAD section of the page **AFTER** calling
 	</body>
 	</html>
 
-##Demos
-
-For more detailed examples of using PopUpWindow plus how to use the profiles feature, view the [demo page](http://rip747.github.com/popupwindow/ "PopUpWindow Demo Page").
