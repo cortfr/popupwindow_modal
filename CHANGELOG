@@ -1,3 +1,7 @@
+02/06/2010
+        cortfr: Removed concept of profiles, allow settings to be passed in directly.
+        cortfr: Added modal.
+`
 02/12/2010
 
 	license added

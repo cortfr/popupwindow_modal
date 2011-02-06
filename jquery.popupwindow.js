@@ -1,5 +1,3 @@
-// cortfr: added modal settings feature, and allow settings to be passed in directly to popupwindow
-
 jQuery.fn.popupwindow = function(mysettings)
 {
 

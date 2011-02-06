@@ -1,8 +1,7 @@
-#PopUpWindow plugin for jQuery
+#Modal Popup Window plugin for jQuery
 
-Takes a link and will create a popupwindow based on the href of the link. You can over ride the default settings by passing your own settings into popupwindow.
+This plugin makes it easy to emulate the behavior in [Google's OpenId+Oauth Hybrid signin demo]("http://googlecodesamples.com/hybrid/")
 
-PopUpWindow can be used to emulate Google's OpenId+Oauth Hybrid signin demo.  See: http://googlecodesamples.com/hybrid/ .
 
 ##Installation
    
